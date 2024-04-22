@@ -1,0 +1,15 @@
+create table pc_menu (
+   menu_no number(2),
+   type varchar2(20),
+   menu_name varchar2(50),
+   menu_price number(4),
+   primary key(menu_no)
+);
+
+-- Data
+insert into pc_menu values(1, '라면', '신라면',  3500);
+insert into pc_menu values(2, '라면', '짜파구리',  4500);
+insert into pc_menu values(3, '음료', '제로콜라',  2000);
+insert into pc_menu values(4, '음료', '아아메리카노',  3500);
+insert into pc_menu values(5, '간식', '갈비만두',  4000);
+insert into pc_menu values(6, '간식', '숏다리',  1500);
