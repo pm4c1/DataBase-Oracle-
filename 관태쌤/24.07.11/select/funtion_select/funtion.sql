@@ -1,4 +1,4 @@
-
+-- 모든 라인 수 조회
 select count(*) from emp_master;
 
 select count(*), count(emp_grade) from emp_master;
